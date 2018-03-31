@@ -6,6 +6,10 @@
   "dependencies": {
     "lodash": "^4.17.5",
     "react": "^16.2.0",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "enzyme-to-json": "^3.2.2",
+    "jest-enzyme": "^4.0.1",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
     "react-scripts-ts": "2.14.0",
@@ -18,8 +22,7 @@
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
-    "electron-dev":
-      "set ELECTRON_START_URL=http://localhost:3000 && electron .",
+    "electron-dev": "set ELECTRON_START_URL=http://localhost:3000 && electron .",
     "electron": "electron .",
     "dist": "npm run build && build",
     "postinstall": "install-app-deps"
