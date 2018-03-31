@@ -1,0 +1,36 @@
+---
+engines:
+  csslint:
+    enabled: true
+    checks:
+      order-alphabetical:
+        enabled: false
+  duplication:
+    enabled: true
+    config:
+      languages:
+        javascript:
+            mass_threshold: 67
+        ruby:
+        python:
+        php:
+  eslint:
+    enabled: true
+    checks:
+      comma-dangle:
+        enabled: false
+  fixme:
+    enabled: true
+ratings:
+  paths:
+  - "**.css"
+  - "**.inc"
+  - "**.js"
+  - "**.jsx"
+  - "**.module"
+  - "**.php"
+  - "**.py"
+  - "**.rb"
+exclude_paths:
+- config/
+- scripts/
